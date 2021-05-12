@@ -1,0 +1,20 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.hover {
+    @apply hover:bg-gray-300 rounded-full p-2;
+}
+
+
+.imgstyle {
+    @apply h-10 w-10 rounded-full ml-3 object-cover;
+}
+
+.online {
+    @apply flex items-center cursor-pointer hover:bg-gray-300 rounded-lg py-2;
+}
+
+.leftside {
+    @apply flex items-center py-2 rounded-lg hover:bg-gray-300;
+}
